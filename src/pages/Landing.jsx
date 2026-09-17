@@ -9,7 +9,8 @@ import GalleryGrid from "@/components/GalleryGrid";
 import CourseCard from "@/components/CourseCard";
 import api from "@/lib/api";
 
-const HERO_BG = "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=6d4d070e2b4f6e8932a0f6b6f6f0c8a0";
+// Replaced food-related hero image with coding-themed image from OfflineCenter
+const HERO_BG = "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=1600&auto=format&fit=crop&q=80";
 
 function Stat({ num, label }) {
   return (
